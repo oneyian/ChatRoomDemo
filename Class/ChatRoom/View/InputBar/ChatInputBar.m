@@ -22,6 +22,7 @@
 
 - (void)initSubViews
 {
+    // textView
     EATextField * textView = self.textView = [[EATextField alloc] initWithFrame:CGRectMake(10, 8, ScreenWidth() - 10 * 2 - 44, self.frame.size.height - 8 * 2)];
     [self addSubview:textView];
     
@@ -34,6 +35,7 @@
     textView.returnKeyType = UIReturnKeySend;
     textView.clearButtonMode = UITextFieldViewModeWhileEditing;
     
+    //  图片选择器
     UIButton *imageItem = self.imageItem = [[UIButton alloc] initWithFrame:CGRectMake(textView.frame.origin.x + textView.frame.size.width + 10, 8, 34, textView.frame.size.height)];
     [imageItem setImage:[UIImage imageNamed:@"chat_photo"] forState:(UIControlStateNormal)];
     [self addSubview:imageItem];

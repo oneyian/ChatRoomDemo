@@ -20,6 +20,7 @@
     [self.contentView addSubview:self.avatarImgView];
     [self.contentView addSubview:self.containerView];
     
+    // 实际展示 UI
     self.imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
     [self.imgView setContentMode:(UIViewContentModeScaleAspectFill)];
     [self.imgView setupCorners:(UIRectCornerAllCorners) radius:8 size:self.imgView.frame.size];
@@ -38,13 +39,11 @@
     
     // frame
     CGRect frame = self.imgView.frame;
-    
     if (isMyMsg && self.containerView.frame.size.width > frame.size.width) {
         frame.origin.x = self.containerView.frame.size.width - frame.size.width - 8;
     }else {
         frame.origin.x = 8;
     }
-    
     self.imgView.frame = frame;
     
     // data

@@ -20,6 +20,7 @@
     [self.contentView addSubview:self.avatarImgView];
     [self.contentView addSubview:self.containerView];
     
+    // 实际展示 UI
     self.textLab = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
     self.textLab.font = Font(14);
     self.textLab.textColor = UIColor.blackColor;
@@ -48,7 +49,6 @@
     }else {
         frame.origin.x = 8;
     }
-    
     self.textLab.frame = frame;
     
     // data

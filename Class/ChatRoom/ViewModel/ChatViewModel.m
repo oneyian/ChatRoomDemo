@@ -21,7 +21,7 @@
 @end
 
 @implementation ChatViewModel {
-    dispatch_semaphore_t _lock; // 信号量
+    dispatch_semaphore_t _lock; // 信号量 加锁
 }
 
 - (instancetype)init

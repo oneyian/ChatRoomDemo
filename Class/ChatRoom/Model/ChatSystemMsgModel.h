@@ -10,6 +10,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ChatSystemMsgModel : ChatBaseModel
+/// ...
+///
+///
+///
+///
 
 @end
 
