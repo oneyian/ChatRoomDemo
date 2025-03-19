@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703DBD1E2D8B0D5900AD7E75 /* ChatInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 703DBD1D2D8B0D5900AD7E75 /* ChatInputBar.m */; };
+		703DBD212D8B0E9E00AD7E75 /* EATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 703DBD202D8B0E9E00AD7E75 /* EATextField.m */; };
+		703DBD242D8B1D5500AD7E75 /* EATimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 703DBD232D8B1D5500AD7E75 /* EATimer.m */; };
+		703DBD2B2D8B2AF100AD7E75 /* UIView+EA.m in Sources */ = {isa = PBXBuildFile; fileRef = 703DBD2A2D8B2AF100AD7E75 /* UIView+EA.m */; };
+		70E6064B2D8AEF4200269705 /* ChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606242D8AEF4200269705 /* ChatBaseCell.m */; };
+		70E6064C2D8AEF4200269705 /* ChatViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E6062E2D8AEF4200269705 /* ChatViewModel.m */; };
+		70E6064D2D8AEF4200269705 /* ChatSystemMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E6061D2D8AEF4200269705 /* ChatSystemMsgModel.m */; };
+		70E6064E2D8AEF4200269705 /* SugarMarcos.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606352D8AEF4200269705 /* SugarMarcos.m */; };
+		70E6064F2D8AEF4200269705 /* EABaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606472D8AEF4200269705 /* EABaseTableView.m */; };
+		70E606502D8AEF4200269705 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606312D8AEF4200269705 /* ChatViewController.m */; };
+		70E606512D8AEF4200269705 /* ChatImageMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E6062B2D8AEF4200269705 /* ChatImageMsgCell.m */; };
+		70E606522D8AEF4200269705 /* ChatSystemMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606272D8AEF4200269705 /* ChatSystemMsgCell.m */; };
+		70E606532D8AEF4200269705 /* EABaseListViewBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606442D8AEF4200269705 /* EABaseListViewBinder.m */; };
+		70E606542D8AEF4200269705 /* ChatImageMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606212D8AEF4200269705 /* ChatImageMsgModel.m */; };
+		70E606582D8AEF4200269705 /* ChatTextMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606292D8AEF4200269705 /* ChatTextMsgCell.m */; };
+		70E606592D8AEF4200269705 /* ChatTextMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E6061F2D8AEF4200269705 /* ChatTextMsgModel.m */; };
+		70E606692D8AF26600269705 /* ChatBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E606682D8AF26600269705 /* ChatBaseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		703DBD1C2D8B0D5900AD7E75 /* ChatInputBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatInputBar.h; sourceTree = "<group>"; };
+		703DBD1D2D8B0D5900AD7E75 /* ChatInputBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatInputBar.m; sourceTree = "<group>"; };
+		703DBD1F2D8B0E9E00AD7E75 /* EATextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EATextField.h; sourceTree = "<group>"; };
+		703DBD202D8B0E9E00AD7E75 /* EATextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EATextField.m; sourceTree = "<group>"; };
+		703DBD222D8B1D5500AD7E75 /* EATimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EATimer.h; sourceTree = "<group>"; };
+		703DBD232D8B1D5500AD7E75 /* EATimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EATimer.m; sourceTree = "<group>"; };
+		703DBD292D8B2AF100AD7E75 /* UIView+EA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+EA.h"; sourceTree = "<group>"; };
+		703DBD2A2D8B2AF100AD7E75 /* UIView+EA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+EA.m"; sourceTree = "<group>"; };
+		70E605FF2D8AEF1F00269705 /* ChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E6061C2D8AEF4200269705 /* ChatSystemMsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatSystemMsgModel.h; sourceTree = "<group>"; };
+		70E6061D2D8AEF4200269705 /* ChatSystemMsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSystemMsgModel.m; sourceTree = "<group>"; };
+		70E6061E2D8AEF4200269705 /* ChatTextMsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatTextMsgModel.h; sourceTree = "<group>"; };
+		70E6061F2D8AEF4200269705 /* ChatTextMsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatTextMsgModel.m; sourceTree = "<group>"; };
+		70E606202D8AEF4200269705 /* ChatImageMsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatImageMsgModel.h; sourceTree = "<group>"; };
+		70E606212D8AEF4200269705 /* ChatImageMsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatImageMsgModel.m; sourceTree = "<group>"; };
+		70E606232D8AEF4200269705 /* ChatBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatBaseCell.h; sourceTree = "<group>"; };
+		70E606242D8AEF4200269705 /* ChatBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatBaseCell.m; sourceTree = "<group>"; };
+		70E606262D8AEF4200269705 /* ChatSystemMsgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatSystemMsgCell.h; sourceTree = "<group>"; };
+		70E606272D8AEF4200269705 /* ChatSystemMsgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSystemMsgCell.m; sourceTree = "<group>"; };
+		70E606282D8AEF4200269705 /* ChatTextMsgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatTextMsgCell.h; sourceTree = "<group>"; };
+		70E606292D8AEF4200269705 /* ChatTextMsgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatTextMsgCell.m; sourceTree = "<group>"; };
+		70E6062A2D8AEF4200269705 /* ChatImageMsgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatImageMsgCell.h; sourceTree = "<group>"; };
+		70E6062B2D8AEF4200269705 /* ChatImageMsgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatImageMsgCell.m; sourceTree = "<group>"; };
+		70E6062D2D8AEF4200269705 /* ChatViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewModel.h; sourceTree = "<group>"; };
+		70E6062E2D8AEF4200269705 /* ChatViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewModel.m; sourceTree = "<group>"; };
+		70E606302D8AEF4200269705 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		70E606312D8AEF4200269705 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		70E606342D8AEF4200269705 /* SugarMarcos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SugarMarcos.h; sourceTree = "<group>"; };
+		70E606352D8AEF4200269705 /* SugarMarcos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarMarcos.m; sourceTree = "<group>"; };
+		70E606422D8AEF4200269705 /* EABaseListViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EABaseListViewProtocol.h; sourceTree = "<group>"; };
+		70E606432D8AEF4200269705 /* EABaseListViewBinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EABaseListViewBinder.h; sourceTree = "<group>"; };
+		70E606442D8AEF4200269705 /* EABaseListViewBinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EABaseListViewBinder.m; sourceTree = "<group>"; };
+		70E606462D8AEF4200269705 /* EABaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EABaseTableView.h; sourceTree = "<group>"; };
+		70E606472D8AEF4200269705 /* EABaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EABaseTableView.m; sourceTree = "<group>"; };
+		70E606652D8AF1A000269705 /* ChatMsgModelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatMsgModelHeader.h; sourceTree = "<group>"; };
+		70E606672D8AF26600269705 /* ChatBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatBaseModel.h; sourceTree = "<group>"; };
+		70E606682D8AF26600269705 /* ChatBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatBaseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		70E606162D8AEF2200269705 /* Exceptions for "ChatDemo" folder in "ChatDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 70E605FE2D8AEF1F00269705 /* ChatDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		70E606012D8AEF1F00269705 /* ChatDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				70E606162D8AEF2200269705 /* Exceptions for "ChatDemo" folder in "ChatDemo" target */,
+			);
+			path = ChatDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E605FC2D8AEF1F00269705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703DBD1A2D8B0D3700AD7E75 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				70E606252D8AEF4200269705 /* Base */,
+				70E606282D8AEF4200269705 /* ChatTextMsgCell.h */,
+				70E606292D8AEF4200269705 /* ChatTextMsgCell.m */,
+				70E6062A2D8AEF4200269705 /* ChatImageMsgCell.h */,
+				70E6062B2D8AEF4200269705 /* ChatImageMsgCell.m */,
+				70E606262D8AEF4200269705 /* ChatSystemMsgCell.h */,
+				70E606272D8AEF4200269705 /* ChatSystemMsgCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		703DBD1B2D8B0D4000AD7E75 /* InputBar */ = {
+			isa = PBXGroup;
+			children = (
+				703DBD1C2D8B0D5900AD7E75 /* ChatInputBar.h */,
+				703DBD1D2D8B0D5900AD7E75 /* ChatInputBar.m */,
+			);
+			path = InputBar;
+			sourceTree = "<group>";
+		};
+		703DBD252D8B220C00AD7E75 /* EAToolView */ = {
+			isa = PBXGroup;
+			children = (
+				703DBD1F2D8B0E9E00AD7E75 /* EATextField.h */,
+				703DBD202D8B0E9E00AD7E75 /* EATextField.m */,
+			);
+			path = EAToolView;
+			sourceTree = "<group>";
+		};
+		703DBD262D8B222300AD7E75 /* EAToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				703DBD222D8B1D5500AD7E75 /* EATimer.h */,
+				703DBD232D8B1D5500AD7E75 /* EATimer.m */,
+			);
+			path = EAToolClass;
+			sourceTree = "<group>";
+		};
+		703DBD282D8B2AD000AD7E75 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				703DBD292D8B2AF100AD7E75 /* UIView+EA.h */,
+				703DBD2A2D8B2AF100AD7E75 /* UIView+EA.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		70E605F62D8AEF1F00269705 = {
+			isa = PBXGroup;
+			children = (
+				70E6065F2D8AEF8100269705 /* Class */,
+				70E606012D8AEF1F00269705 /* ChatDemo */,
+				70E606002D8AEF1F00269705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E606002D8AEF1F00269705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E605FF2D8AEF1F00269705 /* ChatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E606252D8AEF4200269705 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				70E606232D8AEF4200269705 /* ChatBaseCell.h */,
+				70E606242D8AEF4200269705 /* ChatBaseCell.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		70E6062C2D8AEF4200269705 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				703DBD1B2D8B0D4000AD7E75 /* InputBar */,
+				703DBD1A2D8B0D3700AD7E75 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70E6062F2D8AEF4200269705 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				70E6062D2D8AEF4200269705 /* ChatViewModel.h */,
+				70E6062E2D8AEF4200269705 /* ChatViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70E606322D8AEF4200269705 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70E606302D8AEF4200269705 /* ChatViewController.h */,
+				70E606312D8AEF4200269705 /* ChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70E606332D8AEF4200269705 /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				70E6066A2D8AF59200269705 /* Model */,
+				70E6062C2D8AEF4200269705 /* View */,
+				70E6062F2D8AEF4200269705 /* ViewModel */,
+				70E606322D8AEF4200269705 /* Controller */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		70E606452D8AEF4200269705 /* Binder */ = {
+			isa = PBXGroup;
+			children = (
+				70E606422D8AEF4200269705 /* EABaseListViewProtocol.h */,
+				70E606432D8AEF4200269705 /* EABaseListViewBinder.h */,
+				70E606442D8AEF4200269705 /* EABaseListViewBinder.m */,
+			);
+			path = Binder;
+			sourceTree = "<group>";
+		};
+		70E606482D8AEF4200269705 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70E606462D8AEF4200269705 /* EABaseTableView.h */,
+				70E606472D8AEF4200269705 /* EABaseTableView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70E606492D8AEF4200269705 /* EABaseListView */ = {
+			isa = PBXGroup;
+			children = (
+				70E606452D8AEF4200269705 /* Binder */,
+				70E606482D8AEF4200269705 /* Views */,
+			);
+			path = EABaseListView;
+			sourceTree = "<group>";
+		};
+		70E6064A2D8AEF4200269705 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				70E606342D8AEF4200269705 /* SugarMarcos.h */,
+				70E606352D8AEF4200269705 /* SugarMarcos.m */,
+				70E606492D8AEF4200269705 /* EABaseListView */,
+				703DBD252D8B220C00AD7E75 /* EAToolView */,
+				703DBD262D8B222300AD7E75 /* EAToolClass */,
+				703DBD282D8B2AD000AD7E75 /* Category */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		70E6065F2D8AEF8100269705 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				70E6064A2D8AEF4200269705 /* BaseModule */,
+				70E606332D8AEF4200269705 /* ChatRoom */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		70E6066A2D8AF59200269705 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70E6066B2D8AF5B900269705 /* Base */,
+				70E6061E2D8AEF4200269705 /* ChatTextMsgModel.h */,
+				70E6061F2D8AEF4200269705 /* ChatTextMsgModel.m */,
+				70E606202D8AEF4200269705 /* ChatImageMsgModel.h */,
+				70E606212D8AEF4200269705 /* ChatImageMsgModel.m */,
+				70E6061C2D8AEF4200269705 /* ChatSystemMsgModel.h */,
+				70E6061D2D8AEF4200269705 /* ChatSystemMsgModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70E6066B2D8AF5B900269705 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				70E606652D8AF1A000269705 /* ChatMsgModelHeader.h */,
+				70E606672D8AF26600269705 /* ChatBaseModel.h */,
+				70E606682D8AF26600269705 /* ChatBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E605FE2D8AEF1F00269705 /* ChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E606172D8AEF2200269705 /* Build configuration list for PBXNativeTarget "ChatDemo" */;
+			buildPhases = (
+				70E605FB2D8AEF1F00269705 /* Sources */,
+				70E605FC2D8AEF1F00269705 /* Frameworks */,
+				70E605FD2D8AEF1F00269705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				70E606012D8AEF1F00269705 /* ChatDemo */,
+			);
+			name = ChatDemo;
+			packageProductDependencies = (
+			);
+			productName = ChatDemo;
+			productReference = 70E605FF2D8AEF1F00269705 /* ChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E605F72D8AEF1F00269705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					70E605FE2D8AEF1F00269705 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 70E605FA2D8AEF1F00269705 /* Build configuration list for PBXProject "ChatDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70E605F62D8AEF1F00269705;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 70E606002D8AEF1F00269705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E605FE2D8AEF1F00269705 /* ChatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E605FD2D8AEF1F00269705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E605FB2D8AEF1F00269705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703DBD2B2D8B2AF100AD7E75 /* UIView+EA.m in Sources */,
+				70E6064B2D8AEF4200269705 /* ChatBaseCell.m in Sources */,
+				70E6064C2D8AEF4200269705 /* ChatViewModel.m in Sources */,
+				703DBD212D8B0E9E00AD7E75 /* EATextField.m in Sources */,
+				70E6064D2D8AEF4200269705 /* ChatSystemMsgModel.m in Sources */,
+				70E6064E2D8AEF4200269705 /* SugarMarcos.m in Sources */,
+				70E6064F2D8AEF4200269705 /* EABaseTableView.m in Sources */,
+				70E606692D8AF26600269705 /* ChatBaseModel.m in Sources */,
+				70E606502D8AEF4200269705 /* ChatViewController.m in Sources */,
+				70E606512D8AEF4200269705 /* ChatImageMsgCell.m in Sources */,
+				70E606522D8AEF4200269705 /* ChatSystemMsgCell.m in Sources */,
+				70E606532D8AEF4200269705 /* EABaseListViewBinder.m in Sources */,
+				70E606542D8AEF4200269705 /* ChatImageMsgModel.m in Sources */,
+				70E606582D8AEF4200269705 /* ChatTextMsgCell.m in Sources */,
+				703DBD1E2D8B0D5900AD7E75 /* ChatInputBar.m in Sources */,
+				70E606592D8AEF4200269705 /* ChatTextMsgModel.m in Sources */,
+				703DBD242D8B1D5500AD7E75 /* EATimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70E606182D8AEF2200269705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTUY93QZ83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneyian.ChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70E606192D8AEF2200269705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTUY93QZ83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oneyian.ChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		70E6061A2D8AEF2200269705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70E6061B2D8AEF2200269705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E605FA2D8AEF1F00269705 /* Build configuration list for PBXProject "ChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E6061A2D8AEF2200269705 /* Debug */,
+				70E6061B2D8AEF2200269705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E606172D8AEF2200269705 /* Build configuration list for PBXNativeTarget "ChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E606182D8AEF2200269705 /* Debug */,
+				70E606192D8AEF2200269705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E605F72D8AEF1F00269705 /* Project object */;
+}
